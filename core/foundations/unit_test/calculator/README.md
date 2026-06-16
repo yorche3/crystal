@@ -154,7 +154,7 @@ crystal spec
 **Salida esperada / Expected output:**
 
 ```text
-.
+.....
 
 Finished in 0.55 milliseconds
 5 examples, 0 failures, 0 errors, 0 pending
