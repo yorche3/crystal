@@ -49,19 +49,19 @@ end
 describe NaiveSort do
   describe "selection_sort" do
     it "should sort arrays correctly" do
-      run_sort_tests(->NaiveSort.selection_sort, "Selection Sort")
+      run_sort_tests(->(arr : Array(Int32)) { NaiveSort.selection_sort(arr) }, "Selection Sort")
     end
   end
 
   describe "bubble_sort" do
     it "should sort arrays correctly" do
-      run_sort_tests(->NaiveSort.bubble_sort, "Bubble Sort")
+      run_sort_tests(->(arr : Array(Int32)) { NaiveSort.bubble_sort(arr) }, "Bubble Sort")
     end
   end
 
   describe "insertion_sort" do
     it "should sort arrays correctly" do
-      run_sort_tests(->NaiveSort.insertion_sort, "Insertion Sort")
+      run_sort_tests(->(arr : Array(Int32)) { NaiveSort.insertion_sort(arr) }, "Insertion Sort")
     end
   end
 end
