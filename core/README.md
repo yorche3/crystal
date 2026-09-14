@@ -8,7 +8,8 @@ Proyectos principales de **Crystal** agrupados por fase temática.
 
 | Fase | Descripción |
 |------|-------------|
-| [`foundations/`](foundations/) | **Fase 0 — Fundamentos**: `helloworld`, `hellouser`, `calculator`, `numbers` |
+| [`foundations/`](foundations/) | **Fase 0 — Fundamentos**: `hello_world`, `hello_user`, `unit_test`, `numbers` |
+| [`algorithms/`](algorithms/) | **Fase 1 — Algoritmos Puros**: `naive_sort` (selection, bubble, insertion $O(n^2)$) |
 
 ---
 
