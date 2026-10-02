@@ -1,29 +1,25 @@
 module DataStructuresBasics
   VERSION = "0.1.0"
 
+  FAILURE_VALUE = -1
+
   class Node
     @value : Int32
     @next : Node?
 
-    def initialize
-      @value = uninitialized Int32
+    def initialize(@value : Int32)
       @next = nil
     end
 
-    def init(value : Int32) : Nil
-      nil
-    end
-
     def get_value : Int32
-      uninitialized Int32
+      FAILURE_VALUE
     end
 
     def get_next : Node?
       nil
     end
 
-    def set_next(next_node : Node?) : Nil
-      nil
+    def set_next(next_node : Node?)
     end
   end
 
@@ -35,27 +31,21 @@ module DataStructuresBasics
     def initialize
       @head = nil
       @tail = nil
-      @count = uninitialized Int32
+      @count = 0
     end
 
-    def init : Nil
-      nil
+    def get_head : Int32
+      FAILURE_VALUE
     end
 
-    def get_head : Int32?
-      nil
+    def insert_head(value : Int32)
     end
 
-    def insert_head(value : Int32) : Nil
-      nil
+    def insert_tail(value : Int32)
     end
 
-    def insert_tail(value : Int32) : Nil
-      nil
-    end
-
-    def delete(value : Int32) : Bool?
-      nil
+    def delete(value : Int32) : Bool
+      false
     end
 
     def is_empty : Bool
@@ -63,7 +53,7 @@ module DataStructuresBasics
     end
 
     def size : Int32
-      uninitialized Int32
+      @count
     end
   end
 
@@ -73,23 +63,19 @@ module DataStructuresBasics
 
     def initialize
       @top = nil
-      @count = uninitialized Int32
+      @count = 0
     end
 
-    def init : Nil
+    def push(value : Int32)
       nil
     end
 
-    def push(value : Int32) : Nil
-      nil
+    def pop : Int32
+      FAILURE_VALUE
     end
 
-    def pop : Int32?
-      nil
-    end
-
-    def peek : Int32?
-      nil
+    def peek : Int32
+      FAILURE_VALUE
     end
 
     def is_empty : Bool
@@ -97,7 +83,7 @@ module DataStructuresBasics
     end
 
     def size : Int32
-      uninitialized Int32
+      @count
     end
   end
 
@@ -109,23 +95,18 @@ module DataStructuresBasics
     def initialize
       @front = nil
       @rear = nil
-      @count = uninitialized Int32
+      @count = 0
     end
 
-    def init : Nil
-      nil
+    def enqueue(value : Int32)
     end
 
-    def enqueue(value : Int32) : Nil
-      nil
+    def dequeue : Int32
+      FAILURE_VALUE
     end
 
-    def dequeue : Int32?
-      nil
-    end
-
-    def peek : Int32?
-      nil
+    def peek : Int32
+      FAILURE_VALUE
     end
 
     def is_empty : Bool
@@ -133,7 +114,7 @@ module DataStructuresBasics
     end
 
     def size : Int32
-      uninitialized Int32
+      @count
     end
   end
 end
