@@ -126,7 +126,7 @@ module DataStructuresBasics
         @top.not_nil!.get_value
       end
     end
-    
+
     def pop : Int32
       if is_empty
         FAILURE_VALUE
@@ -137,7 +137,6 @@ module DataStructuresBasics
         value
       end
     end
-
   end
 
   class Queue
