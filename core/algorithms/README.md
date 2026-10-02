@@ -9,6 +9,7 @@ Implementación de la fase [Algorithms Pure](https://yorche3.github.io/programmi
 | Módulo | Estado | Descripción / Description |
 |--------|--------|---------------------------|
 | [`naive_sort/`](naive_sort/) | ✅ | **Ordenamiento elemental** ($O(n^2)$): `selection_sort`, `bubble_sort`, `insertion_sort`. / **Elementary sorting** ($O(n^2)$): `selection_sort`, `bubble_sort`, `insertion_sort`. |
+| [`data_structures_basics/`](data_structures_basics/) | ✅ | **Estructuras de datos básicas**: `Node`, `LinkedList`, `Stack`, `Queue`. / **Basic data structures**: `Node`, `LinkedList`, `Stack`, `Queue`. |
 
 ---
 
@@ -17,7 +18,12 @@ Implementación de la fase [Algorithms Pure](https://yorche3.github.io/programmi
 Cada módulo contiene sus propios comandos de Crystal. Por ejemplo / Each module has its own Crystal commands. For example:
 
 ```bash
+# naive_sort
 cd crystal/core/algorithms/naive_sort
+crystal spec
+
+# data_structures_basics
+cd crystal/core/algorithms/data_structures_basics
 crystal spec
 ```
 
