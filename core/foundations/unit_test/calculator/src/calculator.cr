@@ -1,8 +1,9 @@
-# TODO: Write documentation for `Calculator`
+# Módulo `Calculator`: las cinco operaciones de la especificación
+# 03_Unit_Test_Calculator. `multiplication` se construye con suma repetitiva,
+# `division` con resta repetitiva y `modulus` combinando ambas.
 module Calculator
   VERSION = "0.1.0"
 
-  # TODO: Put your code here
   def self.addition(a : Int32, b : Int32) : Int32
     a + b
   end
