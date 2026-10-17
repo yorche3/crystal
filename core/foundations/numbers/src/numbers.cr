@@ -1,4 +1,6 @@
-# TODO: Write documentation for `Numbers`
+# Módulo `Numbers`: los cinco algoritmos de la especificación 04_Numbers en sus
+# tres enfoques (`_rec` recursión directa, `_acc` con acumulador e `_ite`
+# iterativo); los helpers privados viven junto a cada enfoque.
 module Numbers
   VERSION = "0.1.0"
 
