@@ -1,7 +1,7 @@
 require "./spec_helper"
 
 describe Calculator do
-  # TODO: Write tests
+  # Casos de la especificación 03_Unit_Test_Calculator: las cinco operaciones.
 
   it "Addition test" do
     Calculator.addition(2, 3).should eq 5
