@@ -11,7 +11,7 @@ Usa `shard.yml` como manifiesto de proyecto y **spec** (integrado) como framewor
 | Módulo | Descripción |
 |--------|-------------|
 | [`core/foundations/`](core/foundations/) | **Fase 0 — Fundamentos**: `helloworld`, `hellouser`, `calculator`, `numbers` |
-| [`core/algorithms/`](core/algorithms/) | **Fase 1 — Algoritmos Puros**: `naive_sort`, `data_structures_basics` |
+| [`core/algorithms/`](core/algorithms/) | **Fase 1 — Algoritmos Puros**: `naive_sort`, `data_structures_basics`, `data_structures_advanced` |
 
 ---
 
@@ -40,6 +40,10 @@ crystal spec
 
 # Data Structures Basics Tests
 cd core/algorithms/data_structures_basics
+crystal spec
+
+# Data Structures Advanced Tests
+cd core/algorithms/data_structures_advanced
 crystal spec
 ```
 
